@@ -1,14 +1,18 @@
 h1 {
-    font-size: 50px;
-    text-align: center;
+  text-align: center;
 }
-a {
-  color: black;
-  font-size: 25px;
+.row h1 {
+  width: 100%;
+  height: auto;
+  background: #d3d2d2;
+  font-family: unset;
+  font-size: 2em;
+}
+.col a {
   text-decoration: none;
+  font-size: 1.5em;
+  color: rgb(29, 29, 30);
 }
-img {
-    width: 300px;
-    height: 400px;
-  }
-  
+
+
+   
