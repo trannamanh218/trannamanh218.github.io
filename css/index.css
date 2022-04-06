@@ -1,18 +1,24 @@
-h1 {
-  text-align: center;
-}
 .row h1 {
   width: 100%;
   height: auto;
   background: #d3d2d2;
   font-family: unset;
   font-size: 2em;
+  text-align: center;
 }
 .col a {
   text-decoration: none;
   font-size: 1.5em;
   color: rgb(29, 29, 30);
 }
-
-
-   
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #b6b6b6;
+  padding: 10px;
+}
+.col {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
