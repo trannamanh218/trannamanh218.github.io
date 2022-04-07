@@ -1,7 +1,17 @@
 img {
-    width: 200px;
-    height: 250px;
+  width: 200px;
+  height: 250px;
 }
 p {
-    font-size: 20px;
+  font-size: 20px;
+}
+.previous {
+  background-color: #ebeaea;
+  color: rgb(77, 75, 75);
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover {
+  background-color: rgb(31, 29, 29);
+  color: rgb(235, 233, 233);
 }

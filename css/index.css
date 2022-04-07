@@ -1,24 +1,37 @@
 .row h1 {
   width: 100%;
   height: auto;
-  background: #d3d2d2;
-  font-family: unset;
+  background: #fcfbfb;
+  font-family:sans-serif;
   font-size: 2em;
   text-align: center;
 }
 .col a {
-  text-decoration: none;
-  font-size: 1.5em;
+  font-size: 20px;
   color: rgb(29, 29, 30);
+  text-decoration: none;
+  font-family: sans-serif;
 }
 .row {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #b6b6b6;
+  background-color: #fdfcfc;
   padding: 10px;
+  
 }
 .col {
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
+.s {
+    justify-content: center;
+}
+a:hover {
+    background-color: rgb(108, 106, 106);
+    color: rgb(92, 90, 90);
+  }
+
+
+
+  
