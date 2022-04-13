@@ -1,40 +1,31 @@
 .container {
- width: 1000px;
+  max-width: 1000px;
+  height: auto;
   margin: auto;
 }
-body{
-  height: 1000px;
-  width: auto;
-  margin: 0px;
+h1{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  text-transform: uppercase;
 }
 .anhbia img {
-  height: 350px;
-  margin: 0px;
+  width: 100%;
 }
-.adidas{
+.adidas {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   flex-wrap: wrap;
-  text-align: center;
-  padding-top: 15px;
 }
 .a img {
-  height: 300px;
-  width: auto;
-}
-h1 {
-  width: 400px;
-  margin: auto;
-  padding: 20px;
-  font-family:'Times New Roman', Times, serif;
+  max-width: 300px;
+  border-radius: 5%;
 }
 .a a {
   text-decoration: none;
-  color: rgb(95, 99, 99);
-  font-size: large;
+  color: rgb(34, 33, 33);
+  text-align: center;
 }
-.a:hover {
-  background-color: rgb(208, 209, 209);  
+.a a:hover {
+  color: brown;
+  background: red;
 }
-    
-
