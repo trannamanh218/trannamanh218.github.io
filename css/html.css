@@ -1,0 +1,40 @@
+.container {
+ width: 1000px;
+  margin: auto;
+}
+body{
+  height: 1000px;
+  width: auto;
+  margin: 0px;
+}
+.anhbia img {
+  height: 350px;
+  margin: 0px;
+}
+.adidas{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 15px;
+}
+.a img {
+  height: 300px;
+  width: auto;
+}
+h1 {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+.a a {
+  text-decoration: none;
+  color: rgb(95, 99, 99);
+  font-size: large;
+}
+.a:hover {
+  background-color: rgb(208, 209, 209);  
+}
+    
+
