@@ -1,0 +1,31 @@
+.container {
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+h1{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+.anhbia img {
+  width: 100%;
+}
+.adidas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.a img {
+  max-width: 300px;
+  border-radius: 5%;
+}
+.a a {
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+  text-align: center;
+}
+.a a:hover {
+  color: brown;
+  background: red;
+}
