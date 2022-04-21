@@ -28,16 +28,16 @@ body {
     text-decoration: none;
     color: rgb(34, 33, 33);
     text-align: center;
-    transition: 2s;
+    transition: 1s;
   }
   p {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
   }
   .row a:hover {
-    color: rgb(218, 94, 12);
-    background: rgb(206, 142, 23);
-    transition: 1s;
+    color: rgb(241, 102, 9);
+    background: rgb(250, 123, 4);
+    transition: 0.5s;
   }
   .row {
       margin-bottom:  20px;
