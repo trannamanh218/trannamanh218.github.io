@@ -57,3 +57,6 @@ body {
     top: -90px;
     box-shadow: 5px 10px 18px rgb(160, 158, 158);
 }
+i {
+    float:right;
+}
