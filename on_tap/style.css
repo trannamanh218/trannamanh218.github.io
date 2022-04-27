@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: Roboto, sans-serif;
+  background-color: #ebedf0;
+  padding: 30px;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+}
+.title a {
+    margin-bottom: 20px;
+   font-size: 20px;
+   text-decoration: none;
+   color: #414040;
+}
+a:hover {
+    text-decoration: underline;
+}
+.fa-angle-right{
+    font-size: 15px;
+    padding: 5px 10px 0px 10px; 
+    
+}
+.content {
+  width: 65%;
+}
+.address {
+  width: 35%;
+  margin-left: 20px;
+}
+.item {
+  display: flex;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+}
+.left {
+  width: 20%;
+}
+.right {
+  width: 80%;
+  background-color: #ffffff;
+  padding: 20px 20px 0px 20px;
+  color: rgb(80, 79, 79);
+}
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(124, 124, 124);
+  margin-bottom: 7px;
+}
+.year {
+  text-align: center;
+  color: aliceblue;
+  padding: 5px;
+}
+
+.date {
+  color: aliceblue;
+  text-align: center;
+  padding: 31px;
+}
+.daya {
+  font-size: 40px;
+}
+.course-name {
+
+  font-size: 18px;
+  padding-bottom: 60px;
+}
+.course-name > a {
+    text-decoration: none;
+    color: #111111;
+}
+.course-name a:hover {
+    text-decoration: underline;
+}
+.register > a {
+  text-decoration: none;
+  color: #1a02f5;
+}
+.bg-green {
+  background-color: #0671f5;
+}
+.bg-red {
+  background-color: #f84103;
+}
+
+.bg-orange {
+  background-color: #fe6d3f;
+}
+.bg-blue {
+  background-color: #3a8ff8;
+}
+.bg-yellow {
+  background-color: #f89707;
+}
+.bg-gold {
+  background-color: #fbbc05;
+}
+.fa-solid {
+    padding-right: 8px;
+}
+.map iframe {
+    width: 100%;
+}
+.address > p {
+    margin: 0px 0px 20px 0px;
+}
