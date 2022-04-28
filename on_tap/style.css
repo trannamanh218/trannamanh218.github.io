@@ -11,6 +11,7 @@ body {
   max-width: 1300px;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
 }
 .title a {
   margin-bottom: 20px;
@@ -26,11 +27,11 @@ a:hover {
   padding: 5px 10px 0px 10px;
 }
 .content {
-  width: 65%;
+  width: 850px;
 }
 .address {
-  width: 35%;
-  margin-left: 20px;
+  width: 450px;
+  padding-left: 20px;
 }
 .item {
   display: flex;
