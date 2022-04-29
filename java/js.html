@@ -8,10 +8,10 @@
     <script>
        function greeting(){
          alert ("Welcome to TechMaster!")
-       } 
-       function firstgreetings(){
-         alert ("Nam Anh hello" + " " +"Welcome to TechMaster!")
        }
+       var firstgreetings = function (name = "Nam Anh hello.", loichao = "Welcome to TechMaster!"){
+          alert (name + " " + loichao)
+        }
        function square(x){
             alert("ket qua: " + (x * x));
             return x * x;
