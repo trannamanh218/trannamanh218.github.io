@@ -35,6 +35,8 @@ a:hover {
 }
 .item {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 30px;
   box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
   border-radius: 8px;
@@ -53,6 +55,7 @@ a:hover {
 .schedule {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   border-bottom: 1px solid rgb(124, 124, 124);
   margin-bottom: 7px;
 }
