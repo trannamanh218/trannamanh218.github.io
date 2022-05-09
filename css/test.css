@@ -9,12 +9,13 @@
     max-width: 100%;
     height: auto;
     background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    opacity: 0.9;
   }
   .frame_one {
     max-width: 800px;
     height: auto;
     margin: auto;
-    color: aliceblue;
+    color: rgb(254, 255, 255);
     text-align: center;
     padding: 100px 0px 100px 0px;
   }
