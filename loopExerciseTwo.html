@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function lessonOne(x, y) {
+        if (typeof x == "number" && typeof y == "number") {
+          if (x >= y) {
+            return x;
+          } else {
+            return y;
+          }
+        } else {
+          return "so khong hop le";
+        }
+      }
+
+      function lessonTwo(x) {
+        let result = 1;
+        if (x >= 0) {
+          for (let i = 1; i <= x; i++) {
+            result = result * i;
+          }
+          return result;
+        } else {
+          return "so khong hop le";
+        }
+      }
+
+      function lessonThree(number) {
+        if (number >= 8.5 && number <= 10) {
+          return "Điểm A";
+        }
+        if (number >= 7 && number <= 8.5) {
+          return "Điểm B";
+        }
+        if (number >= 5.5 && number <= 7) {
+          return "Điểm C";
+        }
+        if (number >= 4 && number <= 5.5) {
+          return "Điểm D";
+        }
+        if (number >= 0 && number <= 4) {
+          return "Điểm F";
+        }
+        return "so khong hop le ";
+      }
+
+      function translate(language) {
+        switch (language) {
+          case "DE":
+            return "Hallo";
+            break;
+          case "TH":
+            return "สวัสดี";
+            break;
+          case "IT":
+            return "ciao";
+            break;
+          case "PL":
+            return "Witam";
+            break;
+          default:
+            return "xin chào";
+        }
+      }
+    </script>
+  </body>
+</html>
