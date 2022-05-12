@@ -37,6 +37,39 @@
           console.log("Tham so truyen vao khong hop le");
         }
       }
+
+      function bai4(x) {
+        if (x === "DE") {
+          return "Hallo";
+        }
+        if (x === "TH") {
+          return "สวัสดี";
+        }
+        if (x === "IT") {
+          return "ciao";
+        }
+        if (x === "PL") {
+          return "Witam";
+        }
+        if (x === "KR") {
+          return "안녕하세요";
+        }
+        return "xin chào";
+      }
+
+      function colorNumber() {
+        for (i = 1; i <= 100;  i++) {
+          if (i % 3 === 0 && i % 5 === 0) {
+            document.write('<h1 style="color:blue";>' + i + "</h1>");
+          } else if (i % 3 === 0) {
+            document.write('<h1 style="color:orange";>' + i + "</h1>");
+          } else if (i % 5 === 0) {
+            document.write('<h1 style="color:red";>' + i + "</h1>");
+          } else {
+            document.write('<h1 style="color:black";>' + i + "</h1>");
+          }
+        }
+      }
     </script>
   </head>
   <body></body>
