@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let now = new Date();
+      let date = now.getDate();
+      let month = now.getMonth() + 1;
+      let year = now.getFullYear();
+      if (month <= 3) {
+        document.write(date + " " + month + " " + year + " " + "Mùa xuân");
+      } else if (month > 3 && month <= 6) {
+        document.write(date + " " + month + " " + year + " " + "Mùa Hạ");
+      } else if (month > 6 && month <= 9) {
+        document.write(date + " " + month + " " + year + " " + "Mùa Thu");
+      } else if (month > 9 && month <= 12) {
+        document.write(date + " " + month + " " + year + " " + "Mùa Đông");
+      }
+
+
+
+      function lessonTwo(str) {
+        str.sort();
+        for (let i = 0; i < str.length; i++) {
+          let Chain = i + 1;
+          document.write("<h1>" + Chain + " " + str[i] + "</h1>");
+        }
+      }
+
+
+      function lessonThree(number) {
+        let emptyArray = [];
+        for (let i = 0; i < number.length; i++) {
+          if (number[i] % 2 === 0) {
+            emptyArray.push(number[i]);
+          }
+        }
+        return emptyArray;
+      }
+
+
+
+      function lessonFour(numbers) {
+        let minInNumbers = Math.min.apply(null, numbers);
+        return minInNumbers;
+      }
+    </script>
+  </body>
+</html>
