@@ -8,21 +8,21 @@
   </head>
   <body>
     <script>
-      let now = new Date();
-      let date = now.getDate();
-      let month = now.getMonth() + 1;
-      let year = now.getFullYear();
-      if (month <= 3) {
-        document.write(date + " " + month + " " + year + " " + "Mùa xuân");
-      } else if (month >= 4 && month <= 6) {
-        document.write(date + " " + month + " " + year + " " + "Mùa Hạ");
-      } else if (month >= 7 && month <= 9) {
-        document.write(date + " " + month + " " + year + " " + "Mùa Thu");
-      } else if (month >= 10 ) {
-        document.write(date + " " + month + " " + year + " " + "Mùa Đông");
+      function lessonOne() {
+        let now = new Date();
+        let date = now.getDate();
+        let month = now.getMonth() + 1;
+        let year = now.getFullYear();
+        if (month >= 2 && month <= 4) {
+          document.write(date + " " + month + " " + year + " " + "Mùa xuân");
+        } else if (month >= 5 && month <= 7) {
+          document.write(date + " " + month + " " + year + " " + "Mùa Hạ");
+        } else if (month >= 8 && month <= 10) {
+          document.write(date + " " + month + " " + year + " " + "Mùa Thu");
+        } else if (month == 1 || month <= 12) {
+          document.write(date + " " + month + " " + year + " " + "Mùa Đông");
+        }
       }
-
-
 
       function lessonTwo(str) {
         str.sort();
@@ -31,7 +31,6 @@
           document.write("<h1>" + Chain + " " + str[i] + "</h1>");
         }
       }
-
 
       function lessonThree(number) {
         let emptyArray = [];
@@ -43,10 +42,8 @@
         return emptyArray;
       }
 
-
-
       function lessonFour(numbers) {
-        let minInNumbers = Math.min.apply(null, numbers);
+        let minInNumbers = Math.max.apply(null, numbers);
         return minInNumbers;
       }
     </script>

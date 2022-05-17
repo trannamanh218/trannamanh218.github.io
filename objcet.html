@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function lessonOne(str, pass, reconfirm) {
+        let hero = {
+          username: str,
+          password: pass,
+          confirm: reconfirm,
+        };
+        if (
+          hero.username !== "" &&
+          hero.username.length < 20 &&
+          hero.password.length >= 6 &&
+          hero.password.length < 32 &&
+          hero.password === hero.confirm
+        ) {
+          return "Pass";
+        } else {
+          return "Fail";
+        }
+      }
+
+      
+      function lessonTwo(str) {
+        let emptyArray = [];
+        let storage = 0;
+        strLength = str.length
+        for (let i = 0; i < strLength; i++) {
+          if (str[i].length > storage) {
+            storage = str[i].length;
+            emptyArray = [str[i]];
+            continue;
+          }
+          if (str[i].length == storage) {
+            emptyArray.push(str[i]);
+          }
+        }
+        return emptyArray;
+      }
+
+
+
+      function lessonThree() {
+        let hero = [
+          {
+            name: "namanh",
+            age: 24,
+          },
+          {
+            name: "nam",
+            age: 22,
+          },
+          {
+            name: "anh",
+            age: 20,
+          },
+        ];
+        let age = 0;
+        for (let i = 0 ; i < hero.length; i ++ ){
+          age = age + hero[i].age;
+        }
+        let avg = age/hero.length;
+        return avg;
+      }
+    </script>
+  </body>
+</html>
