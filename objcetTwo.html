@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function bai1(str) {
+        let mang = str.split(" ");
+        let a = [];
+        for (let i = 0; i < mang.length; i++) {
+          a.push(mang[i][0].toUpperCase() + mang[i].substring(1).toLowerCase());
+        }
+        return a.join(" ");
+      }
+        
+      function bai2(str) {
+        str = str.split(' ').join('');
+        str = str.toLowerCase();
+        return str === str.split("").reverse().join("");
+      }
+
+
+      function bai3(hero) {
+        return hero.sort(function (a, b) {
+          return b.age - a.age;
+        });
+      }
+
+      function bai4(hero) {
+        let result = hero.filter(function (hero) {
+          return hero.name[0].toLowerCase() === "h";
+        });
+        return result;
+      }
+
+      
+    </script>
+  </body>
+</html>
