@@ -14,9 +14,18 @@
       }
 
       function bai2(arr) {
-        let max = Math.max.apply(null, arr);
-        arr.splice(arr.indexOf(max), 1);
-        return Math.max.apply(null, arr);
+        arr.sort(function (a, b) {
+          return a - b;
+        });
+        var uniqa = [arr[0]];
+        var result = [];
+        for (let i = 1; i < arr.length; i++) {
+          if (arr[i - 1] !== arr[i]) {
+            uniqa.push(arr[i]);
+          }
+        }
+        result.push(uniqa[uniqa.length - 2]);
+        return result;
       }
 
       function bai3(arr) {
