@@ -14,34 +14,26 @@
       }
 
       function bai2(arr) {
-        arr.sort(function (a, b) {
-          return a - b;
-        });
-        var uniqa = [arr[0]];
-        var result = [];
-        for (let i = 1; i < arr.length; i++) {
-          if (arr[i - 1] !== arr[i]) {
-            uniqa.push(arr[i]);
-          }
-        }
-        result.push(uniqa[uniqa.length - 2]);
-        return result;
+        let max = Math.max.apply(null, arr);
+        arr.splice(arr.indexOf(max), 1);
+        return Math.max.apply(null, arr);
       }
 
       function bai3(arr) {
-        let rong = 0;
-        let mang = [];
-        for (let i = 0; i < arr.length; i++) {
-          if (arr[i].length > rong) {
-            rong = arr[i].length;
-            mang = [arr[i]];
+        let emptyArray = [];
+        let storage = 0;
+        strLength = arr.length;
+        for (let i = 0; i < strLength; i++) {
+          if (arr[i].length > storage) {
+            storage = arr[i].length;
+            emptyArray = [arr[i]];
             continue;
           }
-          if (arr[i].length == rong) {
-            mang.push(arr[i]);
+          if (arr[i].length === storage) {
+            emptyArray.push(arr[i]);
           }
         }
-        return mang;
+        return emptyArray;
       }
 
       function bai5(arr) {
