@@ -36,6 +36,14 @@
         return emptyArray;
       }
 
+      function bai4(string, target) {
+        if (string.substr(-target.length) === target) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+
       function bai5(arr) {
         return new Set(arr).size !== arr.length;
       }
