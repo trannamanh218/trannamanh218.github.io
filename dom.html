@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul class="types-of-fruits"></ul>
+
+    <div class="avatar-box"></div>
+
+    <script>
+      function bai1(fruitList) {
+        for (let i = 0; i < fruitList.length; i++) {
+          let li = document.createElement("li");
+          let node = document.createTextNode(fruitList[i]);
+
+          li.appendChild(node);
+
+          let ul = document.querySelector(".types-of-fruits");
+
+          ul.appendChild(li);
+        }
+      }
+
+      function bai2(linkImg) {
+        const image = document.createElement("img");
+        image.src = linkImg;
+        image.style.width = "200px";
+        document.querySelector(".avatar-box").appendChild(image);
+      }
+    </script>
+  </body>
+</html>
