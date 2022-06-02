@@ -12,7 +12,16 @@
     <div class="avatar-box"></div>
 
     <script>
-      function bai1(fruitList) {
+      function bai1() {
+        const fruitList = [
+          "apple",
+          "banana",
+          "tomato",
+          "watermelon",
+          "strawberry",
+          "cherry",
+          "coconut",
+        ];
         for (let i = 0; i < fruitList.length; i++) {
           let li = document.createElement("li");
           let node = document.createTextNode(fruitList[i]);
@@ -25,9 +34,9 @@
         }
       }
 
-      function bai2(linkImg) {
+      function bai2() {
         const image = document.createElement("img");
-        image.src = linkImg;
+        image.src = "https://kenh14cdn.com/thumb_w/660/2020/7/17/brvn-15950048783381206275371.jpg";
         image.style.width = "200px";
         document.querySelector(".avatar-box").appendChild(image);
       }
