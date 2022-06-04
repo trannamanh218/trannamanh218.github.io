@@ -11,7 +11,32 @@
 
     <div class="avatar-box"></div>
 
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+
+    <ul>
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+      <li>D</li>
+    </ul>
+
+    <ul>
+      <li>🥲</li>
+      <li>🥰</li>
+    </ul>
+
+    <div id="clock"></div>
+
+    
+    
     <script>
+
+
+
       const fruitList = [
         "apple",
         "banana",
@@ -32,11 +57,95 @@
         ul.appendChild(li);
       }
 
+
+
+
       const image = document.createElement("img");
       image.src =
         "https://kenh14cdn.com/thumb_w/660/2020/7/17/brvn-15950048783381206275371.jpg";
       image.style.width = "200px";
       document.querySelector(".avatar-box").appendChild(image);
+     
+      // đổi tên + thay đổi vị trí
+      const lists = document.querySelectorAll("ul:not(.fruit-list");
+      for (const list of lists) {
+        const firstItem = list.firstElementChild;
+        const lastItem = list.lastElementChild;
+
+        firstItem.textContent = "fistchil";
+        lastItem.textContent = "lastchil";
+
+        list.append(firstItem);
+        list.prepend(lastItem);
+      }
+
+      
+      function clock() {
+        //Khởi tạo đối tượng timer sử dụng Date Object
+        var timer = new Date();
+        //Gọi các phương thức của đối tượng timer
+        var hour = timer.getHours(); //Lấy giờ hiện tại (giá trị từ 0 - 23)
+        var minute = timer.getMinutes(); //Lấy phút hiện tại
+        var second = timer.getSeconds(); //Lấy giây  hiện tại
+        //Thêm ký tự 0 đằng trước nếu giờ, phút, giây < 10 với câu lệnh điều khiển if
+        if (hour < 10) {
+          hour = "0" + hour;
+        }
+        if (minute < 10) {
+          minute = "0" + minute;
+        }
+        if (second < 10) {
+          second = "0" + second;
+        }
+        //Hiện thị thời gian lên thẻ div id="clock" với phương thức innerHTML
+        document.getElementById("clock").innerHTML =
+          hour + ":" + minute + ":" + second;
+      }
+      //Thực hiện hàm clock theo chu kỳ 1 giây
+      setInterval("clock()", 1000);
+
+
+      
+      /*
+      function createCityOptions(city){
+         const cite = [
+           {
+             id: 1,
+             locele: "vi",
+             name: "hà nội",
+           },
+           {
+             id: 2,
+             locele: "us",
+             name: "neww york",
+           },
+           {
+             id: 3,
+             locele: "jp",
+             name: "tokyo",
+           },
+         ]
+         
+
+      }
+
+
+      function createOption(city){
+        const option = document.createElement("option");
+        option.textContent = city.name;
+        option.value = city.locele;
+        return option;
+       }
+
+      
+       function renderOptions(cities){
+          for (let city of cities){
+            const option = createOption(city);
+            select.append(option);
+          }
+       }
+       renderOptions(cities);
+       */
     </script>
   </body>
 </html>

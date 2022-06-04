@@ -1,0 +1,36 @@
+
+td, th {
+    padding: 10px;
+}
+table, th, tr, td {
+    border: 1px solid rgb(7, 7, 7);
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 30px;
+}
+.bg-color {
+    background-color: red;
+}
+.color {
+    color: red;
+}
+.title {
+    color: floralwhite;
+}
+h1 {
+    text-transform:capitalize;
+    text-shadow:0 0 3px #f56c7a, 0 0 5px #cacad6;
+}
+.text {
+    font-size: 15px;
+   text-transform: uppercase;
+}
+.grey {
+    background-color: rgb(226, 226, 226);
+}
+.number {
+    font-size: 18px;
+    font-weight: 1000;
+}
