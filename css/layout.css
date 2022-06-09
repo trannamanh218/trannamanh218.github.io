@@ -220,15 +220,8 @@ a {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-
-.menu-items:hover .sub-menu{
+.menu-items:hover .sub-menu {
   display: block;
-}
-.menu-items:hover {
-  border-bottom: none;
-  height: 50px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 .sub-menu-item:hover img {
   transform: scale(1.2);
@@ -240,8 +233,21 @@ a {
   padding-bottom: 5px;
 }
 .slider-item {
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 .slider-item:hover {
-  opacity: .8;
+  opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 768px){
+  .items{
+      display: none;
+  }
+  .media {
+   flex-direction: column;
+  }
+  .cover_imge{
+    max-width: 100%;
+  }
 }

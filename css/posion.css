@@ -84,27 +84,24 @@ img {
 .container {
   width: 1000px;
   margin: auto;
-  padding: 200px;
- 
+  margin-top: 200px;
+  position: relative;
 }
 .vuong {
   width: 200px;
   height: 200px;
   background: rgb(171, 44, 163);
-  position: absolute;
- 
 }
-.tron1, .tron2 {
+.tron1 {
   width: 200px;
   height: 200px;
   background: rgb(59, 48, 58);
-  border-radius: 50%;
-  z-index: 1;
-}
-.tron1 {
-  position: relative;
- 
+  position: absolute;
+  right: 0px;
+  top: 0px
 }
 .tron2 {
-  position: relative;
+  width: 200px;
+  height: 200px;
+  background: rgb(170, 14, 84);
 }

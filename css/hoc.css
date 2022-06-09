@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+}
+@media (max-width: 1024px) and (min-width : 768px) {
+    .column{
+        width: 33.33333%;
+    }
+}
+
+@media (max-width: 768px) {
+    .column{
+        width: 50%;
+    }
+}
+@media (max-width: 568px) {
+    .column{
+        width: 100%;
+    }
+}
+button {
+    background-color: aqua;
+    border: 1px;
+}
+#red {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    display: none;
+}

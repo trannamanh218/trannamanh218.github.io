@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin-top: -10px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+[class*="col-"] {
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.col-1 {
+  width: 8.333333%;
+}
+
+.col-2 {
+  width: 16.666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333%;
+}
+
+.col-5 {
+  width: 41.666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333%;
+}
+
+.col-8 {
+  width: 66.666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333%;
+}
+
+.col-11 {
+  width: 91.666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+.facebook {
+  margin: 100px 0px;
+  background: #f0f2f5;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  width: 200px;
+  margin: -21px;
+  padding-bottom: 20px;
+  margin-top: 6px;
+}
+.subtitles {
+  font-size: 25px;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+}
+.title {
+  padding-bottom: 30px;
+}
+.item {
+  border: 1px solid #ebebeb;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: all .2s ease-out;
+}
+.fa-solid {
+  background: #8d8888;
+  padding: 5px;
+  border-radius: 50%;
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  font-size: 10px;
+  color: #ffffff;
+}
+.name {
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 8px;
+}
+.bđ-radius {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.log-in {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 10px 45px;
+  height: 350px;
+}
+#fullname,
+#password {
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  width: 355px;
+  margin-top: 10px;
+}
+.text-log-in {
+  color: white;
+  background: rgb(45, 45, 245);
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.line {
+  border-bottom: 1px solid #dadde1;
+  margin: 20px 25px;
+}
+.a {
+  color: white;
+  background: #14d923;
+  margin-left: 110px;
+  margin-right: 100px;
+  margin-top: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+.Forgot-password {
+  margin-top: 23px;
+  font-size: 14px;
+}
+.item:hover {
+  box-shadow: 0 1px 8px 5px #dddfe2;
+}
