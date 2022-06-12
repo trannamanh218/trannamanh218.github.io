@@ -19,6 +19,9 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.search-job{
+  position: relative;
+}
 .keyword,
 .chosen-search-input {
   width: 300px;
@@ -33,8 +36,8 @@ body {
 }
 .row {
   position: absolute;
-  top: 80px;
-  left: 370px;
+  top: 50px;
+  left: 90px;
  
 }
 label {
