@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 10px 0px;
+}
+.page-heading-tool {
+  background-color: rgb(238, 237, 237);
+  height: 60px;
+  border-top: 1px solid rgb(173, 171, 171);
+  border-bottom: 1px solid rgb(173, 171, 171);
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 15px;
+}
+.dp-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.keyword,
+.chosen-search-input {
+  width: 300px;
+  height: 30px;
+}
+.icon {
+  width: 38px;
+  height: 30px;
+}
+.fa-solid {
+  font-size: 18px;
+}
+.row {
+  position: absolute;
+  top: 80px;
+  left: 540px;
+ 
+}
+label {
+  font-size: 18px;
+}
+#salary,
+#level,
+#days {
+  width: 250px;
+  height: 30px;
+  margin: 10px 10px 0px 0px;
+}

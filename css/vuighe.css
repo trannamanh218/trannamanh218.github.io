@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin-top: -10px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+[class*="col-"] {
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.col-1 {
+  width: 8.333333%;
+}
+
+.col-2 {
+  width: 16.666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333%;
+}
+
+.col-5 {
+  width: 41.666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333%;
+}
+
+.col-8 {
+  width: 66.666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333%;
+}
+
+.col-11 {
+  width: 91.666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+.js-around{
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: rgb(97, 95, 95);
+}
+header{
+    border-bottom: 1px solid rgb(165, 164, 164);
+}
+.menu{
+    position: relative;
+}
+.logo{
+    width: 70%;
+}
+.al-center {
+    align-items: center;
+}
+.items{
+    padding: 3px 10px;
+    border: 1px solid #8b8484;
+    border-radius: 14px;
+    margin-right: -10px;
+    text-align: center;
+}
+.search{
+    width: 300px;
+    height: 27px;
+    border-radius: 8px;
+    border: 1px solid #8b8484;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+.fa-magnifying-glass{
+    position: relative;
+    right: 27px;
+    top: 1px;
+}
+.fa-circle-info, .fa-sun, .fa-user-large{
+    font-size: 25px;
+}
+.sub-menu{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    display: none;
+}
+.text-sub-menu-item{
+    position:relative;
+    top: -22px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient( transparent, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9) );
+}
+.items:hover .sub-menu{
+    display: block;
+}
+.items:hover{
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 38px;
+}
+.item-container{
+    height: 35px;
+}
+.sub-menu-item:hover img{
+    transform: scale(1.2);
+}
+.sub-menu-item img{
+    transition: 0.4s;
+}
