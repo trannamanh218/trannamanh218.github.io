@@ -1,0 +1,327 @@
+img {
+    width: 100%;
+  }
+  
+  .logoo {
+    height: 50px;
+    width: 140px;
+  }
+  .navbar-collapse {
+    flex-grow: 0;
+    justify-content: flex-end;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    transition: 0.5s;
+    opacity: 1;
+    width: 68px;
+    height: 68px;
+    border: 2px solid hsla(0, 0%, 100%, 0.2);
+    border-radius: 100%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  .title-cover-image {
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 900;
+  }
+  .description {
+    color: #fff;
+    opacity: 0.7;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0;
+  }
+  .service-area {
+    padding: 30px 0px;
+  }
+  .carousel-item {
+    transition: 1s;
+  }
+  a {
+    text-decoration: none;
+  }
+  .service {
+    padding: 30px 14px;
+    z-index: 2;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  .service.service__style--2 .icon {
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: inline-flex;
+    color: #f9004d;
+  }
+  .service.service__style--2 > .content > h3.title {
+    margin-bottom: 19px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    line-height: 1.4074;
+    color: #1f1f25;
+  }
+  .service.service__style--2 > .content p {
+    color: rgba(29, 29, 36, 0.75);
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 15px;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  .service.service__style--2:hover {
+    box-shadow: 0 10px 25px 10px rgb(0 0 0 / 10%);
+    transform: translateY(-5px);
+  }
+  .section-title > h2.title {
+    font-size: 50px;
+    margin-bottom: 8px;
+  }
+  .section-title > p {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(29, 29, 36, 0.75);
+  }
+  a.btn-transparent {
+    color: #1f1f25;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 3px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  a:hover {
+    text-decoration: none;
+    outline: none;
+  }
+  a.btn-transparent:hover {
+    color: #f9004d;
+  }
+  .mt--30 {
+    margin-top: 30px;
+  }
+  .standard-service .thumbnai img {
+    border-radius: 5px;
+  }
+  .standard-service .content h3 a {
+    color: #1f1f25;
+    font-size: 22px;
+  }
+  .mg-bt {
+    margin-top: 20px;
+  }
+  .rn-about-area {
+    margin-top: 20px;
+    padding: 70px 0px;
+    background-color: #f8f9fc;
+  }
+  .thumbnail > img {
+    border-radius: 5px;
+    box-shadow: 0 25px 65px rgb(0 0 0 / 10%);
+  }
+  .accordion-wrapper > a > p {
+    color: #1f1f25;
+    font-weight: 700;
+    line-height: 1.5;
+    word-spacing: 1px;
+  }
+  a.rn-button-style--2.btn-solid,
+  button.rn-button-style--2.btn-solid {
+    border: 2px solid #f9004d;
+    background: #f9004d;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: 0.3s;
+    margin-top: 60px;
+  }
+  a.rn-button-style--2:hover,
+  button.rn-button-style--2:hover {
+    background: transparent;
+    color: #f9004d;
+    box-shadow: 0 10px 15px 0 rgb(0 0 0 / 10%);
+    transform: translateY(-5px);
+  }
+  .rn-team-area {
+    padding: 50px 0px;
+  }
+  .social-transparent {
+    margin: 15px 0px 40px 0px;
+  }
+  .fa-linkedin-in {
+    margin: 0px 20px;
+  }
+  .list-style--1 {
+    list-style: none;
+  }
+  .list-style--1 li {
+    color: #7e7e7e;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: inherit;
+    margin-bottom: 10px;
+  }
+  .list-style--1 li svg {
+    color: #f9004d;
+    margin-right: 5px;
+  }
+  .rn-brand-area {
+    padding: 100px 0px;
+  }
+  .rn-brand-area-logo {
+    opacity: 0.7;
+    transition: 0.3s;
+    max-height: 110px;
+    max-width: 150px;
+  }
+  .style-rn-brand-area {
+    border: 1px solid rgb(227, 226, 226);
+    border-radius: 5px;
+    text-align: center;
+    height: 200px;
+    transition: 0.5s;
+  }
+  .style-rn-brand-area > img {
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+  .style-rn-brand-area:hover {
+    background-color: #f9004d;
+    transform: scale(1.1);
+    border-radius: 6px;
+    opacity: 1;
+  }
+  .style-rn-brand-area img:hover {
+    opacity: 1;
+    filter: brightness(0) invert(1);
+  }
+  .mb--25 {
+    margin-bottom: 25px;
+  }
+  .rn-pricing .pricing-table-inner {
+    padding: 40px;
+    text-align: center;
+  }
+  .rn-pricing {
+    border: 2px solid #f42958;
+    border-radius: 5px;
+    transform-style: preserve-3d;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 30px;
+    transition: 0.8s;
+  }
+  .rn-pricing .pricing-table-inner .pricing-header {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgba(248, 31, 1, 0.1);
+  }
+  a.rn-btn,
+  button.rn-btn {
+    padding: 0 23px;
+    height: 40px;
+    display: inline-block;
+    line-height: 34px;
+    border: 2px solid #f9004d;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    color: #f9004d;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+  }
+  .rn-pricing .pricing-table-inner .pricing-footer {
+    text-align: center;
+  }
+  .rn-pricing:hover {
+    background-color: rgb(238, 79, 132);
+    color: #fff;
+  }
+  .counterup-area{
+    margin: 50px 0px;
+  }
+  .bg_image--17 {
+    background-image: url(" http://trydo.rainbowit.net/assets/images/bg/bg-image-17.jpg");
+  }
+  .bg-counterup {
+    opacity: 0.8;
+    background-color: #1f1f25;
+  }
+  .counterup-container {
+    padding: 140px 0px;
+    text-align: center;
+  }
+  h5.counter {
+    font-size: 72px;
+    line-height: 80px;
+    margin-bottom: 17px;
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    margin-left: -20px;
+  }
+  .descriptionn {
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0px 20px;
+  }
+  .blog-style--1 {
+    margin-bottom: 20px;
+  }
+  .title > a {
+    color: rgb(96, 82, 82);
+  }
+  .call-to-action-wrapper {
+    background-image: url("	http://trydo.rainbowit.net/assets/images/pattern-1.png");
+    background-color: #f42958;
+    margin-top: 50px;
+  }
+  .call-to-action .inner > span {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 9px;
+  }
+  .call-to-action .inner h2 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: Montserrat, sans-serif;
+    line-height: 90px;
+  }
+  .call-to-action .inner a.rn-button-style--2 {
+    margin-top: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+  }
+  .inner {
+    padding: 50px 0px;
+  }
+  
+  
