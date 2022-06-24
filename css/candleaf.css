@@ -61,3 +61,10 @@ p{
     box-shadow: 0 10px 25px 10px rgb(0 0 0 / 10%);
     transform: translateY(-5px);
 }
+@media only screen and (max-width: 580px){
+    .items-produts{
+        width: 50%;
+        display: flex;
+        margin-left: 130px;
+    }
+}
