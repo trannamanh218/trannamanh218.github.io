@@ -187,19 +187,19 @@ button.rn-button-style--2:hover {
   transition: 0.3s;
   max-height: 110px;
   max-width: 150px;
+  margin-top: 70px;
 }
-.style-rn-brand-area {
+.image-rn-brand-area-ptb--120 {
   border: 1px solid rgb(227, 226, 226);
   border-radius: 5px;
   text-align: center;
-  height: 200px;
   transition: 0.5s;
+  height: 200px;
 }
-.style-rn-brand-area > img {
-  margin-top: 70px;
-  margin-bottom: 10px;
+.style-rn-brand-area {
+  padding: 10px;
 }
-.style-rn-brand-area:hover {
+.image-rn-brand-area-ptb--120:hover {
   background-color: #f9004d;
   transform: scale(1.1);
   border-radius: 6px;
@@ -294,9 +294,9 @@ h5.counter {
   left: 0px;
   display: flex;
   flex-direction: column;
-  justify-content:end;
+  justify-content: end;
   align-items: center;
-  background: linear-gradient(180deg,transparent 0,#000 70%);
+  background: linear-gradient(180deg, transparent 0, #000 70%);
 }
 .title > a {
   color: rgb(96, 82, 82);
@@ -336,5 +336,35 @@ h5.counter {
 .inner {
   padding: 50px 0px;
 }
-  
-  
+
+.footer {
+  background-color: rgb(38, 34, 34);
+  padding: 20px 0px;
+}
+.row-footer {
+  align-items: baseline;
+}
+.logo-footer {
+  width: 30%;
+}
+.social-share {
+  list-style: none;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-instagram,
+.fa-twitter {
+  font-size: 20px;
+  color: #f8f9fc;
+  background-color: #f42958;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0px 10px;
+}
+.tex-footer {
+  color: #f8f9fc;
+}
+.innerr {
+  padding: 15px;
+}
