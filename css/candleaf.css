@@ -1,70 +1,92 @@
-.body{
+.body {
     box-sizing: border-box;
     margin: 0px;
-}
-img{
+  }
+  img {
     width: 100%;
-}
-p{
+  }
+  p {
     margin: 0px;
-}
-.navbar-brand{
+  }
+  .navbar-brand {
     color: #87a531;
-}
-.carousel-caption{
-    background:  rgba(255, 255, 255, 0.9);
-    color: #0a0a0a;
-    border-radius: 5px;
-    right: 25%;
-    left: 25%;
-}
-.fa-user-large, .fa-cart-arrow-down{
+  }
+  .fa-user-large,
+  .fa-cart-arrow-down {
     font-size: 20px;
     padding: 18px;
     color: #87a531;
-}
-.collapse{
-    align-items: baseline;
-}
-.title-carousel-caption{
-    margin-bottom: 60px;
-    padding: 0px 20px;
-}
-.fa-cannabis{
-    color: #87a531;
-}
-.link-carousel-caption{
+  }
+  .ps-rlt {
+    position: relative;
+  }
+  .box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .item {
+    background: rgb(247, 246, 246, 0.9);
+    border-radius: 5px;
+    padding: 50px 50px 0px 50px;
+  }
+  .title-carousel-caption {
+    padding-bottom: 30px;
+  }
+  .link-caro {
+    padding-bottom: 40px;
+  }
+  .link-carousel-caption {
     padding: 8px 20px;
-    background-color: #87a531;;
+    background-color: #87a531;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     text-decoration: none;
-}
-.product-portfolio{
+  }
+  .collapse {
+    align-items: baseline;
+  }
+  .fa-cannabis {
+    color: #87a531;
+  }
+  .product-portfolio {
     margin-bottom: 200px;
-}
-.title-product-portfolio{
+  }
+  .title-product-portfolio {
     text-align: center;
-   margin: 30px 0px;
-}
-.items-produts{
+    margin: 30px 0px;
+  }
+  .items-produts {
     padding: 10px;
     border: 1px solid #b3c28a;
     margin-bottom: 20px;
     border-radius: 5px;
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-.title-items-produts{
+  }
+  .title-items-produts {
     text-align: center;
-}
-.items-produts:hover {
+  }
+  .items-produts:hover {
     box-shadow: 0 10px 25px 10px rgb(0 0 0 / 10%);
     transform: translateY(-5px);
-}
-@media only screen and (max-width: 580px){
-    .items-produts{
-        width: 50%;
-        display: flex;
-        margin-left: 110px;
+  }
+  @media only screen and (max-width: 580px) {
+    .items-produts {
+      width: 50%;
+      display: flex;
+      margin-left: 130px;
     }
-}
+  }
+  @media only screen and (max-width: 992px) {
+     .box{
+      display: none;
+     }
+    }
+  
