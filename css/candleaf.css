@@ -8,6 +8,16 @@
   p {
     margin: 0px;
   }
+  .me-auto{
+    justify-content: center;
+    width: 100%;
+  }
+  .nav-item{
+    margin: 0px 20px;
+  }
+  .icon-logo{
+    display: flex;
+  }
   .navbar-brand {
     color: #87a531;
   }
