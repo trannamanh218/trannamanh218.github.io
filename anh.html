@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 1000px;
+        margin: auto;
+        font-size: 30px;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+      }
+      .item {
+        position: absolute;
+      }
+      /* .iitem {
+        display: none;
+      } */
+      .iitem{
+        position: relative;
+      }
+      .item:hover .iitem {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="item">
+          nam anh
+          <div class="iitem">hú hú</div>
+          <div class="iitem">hú hú</div>
+          <div class="iitem">hú hú</div>
+          <div class="iitem">hú hú</div>
+          <div class="iitem">hú hú</div>
+          <div class="iitem">hú hú</div>
+          <div class="iitem">hú hú</div>
+        </div>
+        <div class="item">nam anh</div>
+        <div class="item">nam anh</div>
+        <div class="item">nam anh</div>
+        <div class="item">nam anh</div>
+        <div class="item">nam anh</div>
+      </div>
+    </div>
+  </body>
+</html>
