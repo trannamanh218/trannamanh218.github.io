@@ -1,0 +1,76 @@
+body {
+    margin: 0px ;
+    padding: 0px;
+}
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+#header {
+    background: orange;
+}
+#main-menu {
+    display: flex;
+    justify-content: center;
+}
+#main-menu li{
+    list-style: none;
+}
+#main-menu li {
+    position: relative;
+}
+#main-menu li a {
+    color: aliceblue;
+    display: flex;
+    padding: 18px 30px;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+#main-menu ul.sub-menu {
+    position: absolute;
+    background: rgb(181, 129, 233);
+    padding: 0px;
+    list-style: none;
+    width: 200px;
+    border: 1px solid rgb(133, 133, 133); 
+    display: none;
+}
+#main-menu li:hover> ul.sub-menu {
+    display: block;
+}
+#main-menu ul.sub-menu a {
+    padding: 8px 15px;
+    left: 0px;
+    border-bottom: 1px solid rgb(133, 133, 133);
+}
+#main-menu ul.sub-menu ul.sub-menu {
+    left: 200px;
+    top: -1px;
+}
+#main-menu>li>a {
+    position: relative;
+}
+#main-menu>li>a>i {
+    margin-left: 10px;
+}
+#main-menu li a  {
+    display: flex;
+    justify-content: space-between;
+}
+#main-menu>li>a::before {
+    content: "";
+    height: 4px;
+    width: 0px;
+    background: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#main-menu>li:hover>a::before {
+    width: 100%;
+}
+#main-menu .sub-menu li:hover>a {
+    background-color: rgb(118, 118, 118);
+    color: rgb(237, 168, 122);
+  }
